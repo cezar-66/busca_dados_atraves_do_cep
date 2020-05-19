@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Localizador de endereços</title>
+   
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="titulo">
+                <h3>Informe seu CEP para que possamos identificar seu endereço</h3>
+            </div>
+        </div>
+
+        <div class="row" id="campoCEP">
+            <div class="col-md-6 offset-md-3 form-control">
+                <label>CEP :
+                    <input class="form-control form-control-lg" type="text" id="txtCep" placeholder="informe o seu cep..." required>
+                    <small>clique fora do campo após informar seu cep</small>
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="conteudo" class="form-group" onload="escondeConteudo()">
+                    <label>ESTADO       <input class="form-control form-control-sm" type="text" id="txtEstado" placeholder="cidade"></label>                    
+                    <label>CIDADE       <input class="form-control form-control-sm" type="text" id="txtCidade" placeholder="cidade"></label>
+                    <label>BAIRRO       <input class="form-control form-control-sm" type="text" id="txtBairro" placeholder="bairro"></label>
+                    <label>RUA          <input class="form-control form-control-sm" type="text" id="txtRua" placeholder="rua"></label>
+                    <label>COMPLEMENTO  <input class="form-control form-control-sm" type="text" id="txtComplemento" placeholder="complemento"></label><br>
+
+                    <button class="btn btn-secondary" id="btn-buscar-novo-endereco" onclick="limpaCamposConteudo()">Buscar Novo Endereço</button>
+                </div>
+                <hr>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
