@@ -7,6 +7,7 @@ body {
     background-image: url("./img/background-body.jpg");
     background-repeat: no-repeat;
 }
+
 #titulo {
     color: rgba(0, 10, 3, 0.301);
     text-align: center;
@@ -39,11 +40,12 @@ body {
 
 .rodape {
     background-color: #21d192;
-    margin-top: 385px;
+    margin-top: 465px;
+    position: relative;
     text-align: center;
    font-family: Dyuthi;
 }
 
 #texto-rodape {
-    margin-top: 25px;
+    margin-top: 20px;
 }
