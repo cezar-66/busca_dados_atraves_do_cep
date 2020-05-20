@@ -6,22 +6,23 @@
     <link rel="stylesheet" href="css-index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Localizador de endereços</title>
-   
+
 </head>
 <body>
 
     <div class="container">
         <div class="row">
             <div class="col-md-12" id="titulo">
-                <h3>Informe seu CEP para que possamos identificar seu endereço</h3>
+                <p>Bem Vindo Ao Projeto Busca CEP</p>
+                <h6 id="h6-titulo">Informe seu CEP para que possamos identificar seu endereço</h6>
             </div>
         </div>
 
         <div class="row" id="campoCEP">
             <div class="col-md-6 offset-md-3 form-control">
-                <label>CEP :
+                <label>CEP
                     <input class="form-control form-control-lg" type="text" id="txtCep" placeholder="informe o seu cep..." required>
-                    <small>clique fora do campo após informar seu cep</small>
+                    <b><small>clique fora do campo após informar seu cep</small></b>
                 </label>
             </div>
         </div>
@@ -38,11 +39,14 @@
                     <button class="btn btn-secondary" id="btn-buscar-novo-endereco" onclick="limpaCamposConteudo()">Buscar Novo Endereço</button>
                 </div>
                 <hr>
-
-                
             </div>
         </div>
     </div>
+    <footer class="page-footer font-small blue-grey lighten-5">
+        <div class="footer-copyright text-center py-3 rodape">
+            <p id="texto-rodape">® Desenvolvido Por Cezar Marçal - 2020</p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>

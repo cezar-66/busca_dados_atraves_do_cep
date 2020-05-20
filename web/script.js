@@ -54,7 +54,6 @@ function escondeConteudo(){
 
 function apresentaConteudo(){
     $("#conteudo").show();
-   
 }
 
 

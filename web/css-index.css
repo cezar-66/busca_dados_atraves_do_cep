@@ -4,12 +4,9 @@
 }
 
 body {
-    background-image: url("https://image.freepik.com/vetores-gratis/na-ilustracao-do-conceito-de-caminho_114360-1583.jpg");
+    background-image: url("./img/background-body.jpg");
     background-repeat: no-repeat;
-   
-    
 }
-
 #titulo {
     color: rgba(0, 10, 3, 0.301);
     text-align: center;
@@ -20,14 +17,17 @@ body {
     font-weight: 900;
 }
 
-#cmpCep {
-    text-align: center;
-    align-items: center;
-    font-family: monospace;
+#h6-titulo {
+    margin-top: -10px;
+}
+
+#campoCEP {
+    margin-left: 50px;
 }
 
 #conteudo {
     margin-top: 20%;
+    position: absolute;
     text-align: center;
     font-family: monospace;
 }
@@ -35,4 +35,15 @@ body {
 #btn-buscar-novo-endereco {
     margin-top: 30px;
    
+}
+
+.rodape {
+    background-color: #21d192;
+    margin-top: 385px;
+    text-align: center;
+   font-family: Dyuthi;
+}
+
+#texto-rodape {
+    margin-top: 25px;
 }
